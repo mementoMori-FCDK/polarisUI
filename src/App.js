@@ -1,6 +1,6 @@
 import './App.css';
 import { AppProvider, Button, Page, Box, Card, Icon, Text, Layout, Divider } from '@shopify/polaris';
-import { ChevronRightMinor, CartDownMajor, AnalyticsBarStackedMinor, EnableSelectionMinor, BlockquoteMajor, FormsMajor, SectionMajor } from '@shopify/polaris-icons';
+import { ChevronRightMinor, CartDownMajor, AnalyticsBarStackedMinor, EnableSelectionMinor, BlockquoteMajor, FormsMajor, SectionMajor, InactiveLocationMinor } from '@shopify/polaris-icons';
 import getTextGroup from './TextGroup';
 import "@shopify/polaris/build/esm/styles.css"
 
@@ -106,9 +106,9 @@ function App() {
               <Card shadow="md" borderRadius="3" padding="3">
                 <div className="cardElement">
                   <div style={iconStyles}>
-                    <Icon source={EnableSelectionMinor} /> 
+                    <Icon source={InactiveLocationMinor} /> 
                   </div>
-                  {getTextGroup("Checkbox upsell", "Offer a free gisft or upsell using a checkbox. Customers can easily add/remove the offer")}
+                  {getTextGroup("Address blocker & validator", "Block customers from checking out if their address is invalid or unsupported. Optionally validates the address and suggest changes.")}
                   <Button icon={ChevronRightMinor} plain></Button>
                 </div>
               </Card>
