@@ -13,7 +13,7 @@ const boxStyles = {
 
 const sectionStyles = {
   backgroundColor: '#f8f9fb',
-  padding: '20px',
+  padding: '10px',
   borderRadius: '8px',
   marginBottom: '10px',
 };
